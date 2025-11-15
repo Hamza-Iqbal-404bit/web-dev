@@ -1,0 +1,38 @@
+/* Common styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* Light Theme */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
